@@ -68,8 +68,10 @@ $(document).ready(function(){
 					scrollTop: $(window).height()
 				}, 1200);
 			});
-    
-    // Twak Chat
+
+    });
+
+  // Twak Chat
 
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -80,5 +82,3 @@ $(document).ready(function(){
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
-
-    });
