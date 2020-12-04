@@ -227,139 +227,19 @@
            </div>
        </div>
     </footer>
-<!-- *** Msg Box *** -->
-<!--<div id="msg" class="container">
-   <div id="msg-top" style="padding:10px 0px;"><center><h5 style="color:white;"><i class="far fa-comments"></i> Leave a Message!</h5></center></div>
-   <div style="padding:5px;">
-   <form class="form-group" id="add_note_form">
-      <input type="text" name="name" id="name" placeholder="enter name" class="form-control" required /><br>
-      <input type="text" name="email" id="email" placeholder="enter email" class="form-control" required /><br>
-      <input type="text" name="contact" id="contact" placeholder="enter contact" class="form-control" required /><br>
-      <textarea rows="2" type="text" id="message" name="message" placeholder="enter message" class="form-control" required /></textarea><br>
-      <input type="submit" id="msgboxbtn" style="width:100%;" value="Send Message" class="btn btn-danger" name="msg_submit">
-   </form></div>
-</div>-->
-<!-- *** *** -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!--************Javascript Libraries***************-->
+   
 <script type = "text/javascript"
          src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
 </script>
-<!-- <script type="text/javascript">
-   $(document).ready(function(){
-      var c=1;
-      $("#msg-top").click(function(){
-         c++;
-         if(c%2==0)
-         $("#msg").animate({bottom:"0px"},1000);
-       else
-         $("#msg").animate({bottom:"-350px"},1000);
-      });
-   });
-    /* Add Message */
-   var add_note_form = document.querySelector("#add_note_form");
-          add_note_form.addEventListener("submit",function(e){
-            e.preventDefault();
-            add_notification();
-          });
-          function add_notification(){
-            const name = document.querySelector("#name").value;
-            const email = document.querySelector("#email").value;
-            const contact = document.querySelector("#contact").value;
-            const message = document.querySelector("#message").value;
-            var xhttp = new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                  swal({
-                        title: "Thanks for Leaving a message !",
-                        text: this.responseText,
-                        icon: "success",
-                      });
-                }
-              }
-          xhttp.open("POST", "function.php", true);
-          xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-          xhttp.send("name="+name+"&email="+email+"&contact="+contact+"&message="+message+"&msg_submit=msg_submit");
-          }
-</script>-->
 
-
-<script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    $(document).ready(function(){
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("nav1").style.background = "white";
-        document.getElementById("nav1").style.boxShadow = " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
-        document.getElementById("toggler").style.color = "#2F363F";
-        document.getElementById("nav-link1").style.color = "#2F363F";
-        document.getElementById("nav-link2").style.color = "#2F363F";
-        document.getElementById("nav-link3").style.color = "#2F363F";
-        document.getElementById("nav-link4").style.color = "#2F363F";
-        document.getElementById("nav-link5").style.color = "#2F363F";
-        
-      } 
-      else
-      {
-        document.getElementById("nav1").style.background = "transparent";
-        document.getElementById("nav1").style.boxShadow = "none";
-       
-      } 
-        window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("nav1").style.background = "white";
-        document.getElementById("nav1").style.boxShadow = " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
-        document.getElementById("toggler").style.color = "#2F363F";
-        document.getElementById("nav-link1").style.color = "#2F363F";
-        document.getElementById("nav-link2").style.color = "#2F363F";
-        document.getElementById("nav-link3").style.color = "#2F363F";
-        document.getElementById("nav-link4").style.color = "#2F363F";
-        document.getElementById("nav-link5").style.color = "#2F363F";
-        
-      } 
-      else
-      {
-        document.getElementById("nav1").style.background = "transparent";
-        document.getElementById("nav1").style.boxShadow = "none";
-       
-      } 
-    }
-    });
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/2daac97524.js"></script>
-		<!-- <script src="http://localhost:3002/dist/aos.js"></script> -->
-
-		<script>
-			AOS.init({
-				easing: 'ease-out-back',
-				duration: 1000
-			});
-		</script>
-
-		<script>
-			hljs.initHighlightingOnLoad();
-
-			$('.hero__scroll').on('click', function(e) {
-				$('html, body').animate({
-					scrollTop: $(window).height()
-				}, 1200);
-			});
-		</script>
-  </body>
-   <!--     <div class="se-pre-con"></div>
- <script>
-$(window).load(function() {
-		// Animate loader off screen
-        setTimeout(function(){
-		$(".se-pre-con").fadeOut("slow");
-        },500);
-});</script> -->
+    <script src="script.js"></script>
+</body>
 </html>
