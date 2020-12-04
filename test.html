@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+    <title>Dashboard</title>
+  </head>
+  <style>
+   
+    #leftlist{
+        position:absolute;
+        top:100px;left:0px;
+    }
+    #leftlist li{
+        list-style: none;
+        width:220px;
+        padding:10px 10px;
+        border-bottom:1px solid gray;
+
+    }
+    #leftlist li a{
+        text-decoration:none!important;
+        color:white;
+    }
+    #leftlist li a:hover{
+        color:white;
+    }
+    #calllist{
+        position: absolute;
+        top:50px;
+        left: 0px;
+    }
+    #calllist li{
+        list-style: none;
+        padding:10px;
+        border-bottom:1px solid lightgray;
+        width:250px;
+    }
+  </style>
+  <body>
+    <div>
+        <div>
+          <div style="background-color:#2E4053;height:700px;width:300px;">
+              <h3 style="color:white;position:absolute;top:30px;left:50px;"><span style="color:white;"><i class="lni lni-rocket"></i></span> Royals <span style="color:#7488FC;">CRM</span></h3>
+              <div>
+                  <img src="" style=""/>
+              </div>
+              <ul id="leftlist">
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">Send Mail</a></li>
+                  <li><a href="#">Leads</a></li>
+                  <li><a href="#">Accounts</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Sales</a></li>
+                  <li><a href="#">Invoices</a></li>
+                  <li><a href="#">Reports</a></li>
+                  <li><a href="#">Setup</a></li>
+                  <li><a href="#">Logout</a></li>
+              </ul>
+          </div>
+          <div style="float:right;position:absolute;top:50px;right:20px;">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-4">
+                          <div style="padding:20px;width:300px;height:150px;background-image:linear-gradient(to right,#4BC1FF,#7488FC);border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <h3 style="color:white;">Leads</h3>
+                            <span style="color:white;font-size:50px;"><i class="lni lni-funnel"></i></span>  
+                            <h1 style="color:white;position:absolute;right:70px;bottom:50px;">10202</h1>
+                          </div><br>
+                      </div>
+                       <div class="col-md-4">
+                          <div style="padding:20px;width:300px;height:150px;background-image:linear-gradient(to right,#40EE5A,#79DF89);border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                               <h3 style="color:white;">Contacts</h3>
+                            <span style="color:white;font-size:50px;"><i class="lni lni-cup"></i></span>  
+                            <h1 style="color:white;position:absolute;right:70px;bottom:50px;">5000</h1>
+                          </div><br>
+                      </div>
+                       <div class="col-md-4">
+                          <div style="padding:20px;width:300px;height:150px;background-image:linear-gradient(to right,#F5E226,#F5A626);border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                               <h3 style="color:white;">Opportunities</h3>
+                                <span style="color:white;font-size:50px;"><i class="lni lni-magnet"></i></span>  
+                                <h1 style="color:white;position:absolute;right:70px;bottom:50px;">8003</h1>
+                          </div><br>
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-8">
+                      <div style="padding:40px;height:400px;width:100%;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                          <canvas id="myChart"></canvas>
+                      </div>
+                  </div>
+                   <div class="col-md-4">
+                       <div style="padding:20px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);width:100%;height:400px;">
+                            <h5 style="margin-left:20px;"><i class="lni lni-phone"></i> Calls</h5><br>
+                            <ul id="calllist">
+                                <li>
+                                    <b>Assigned to :</b> <i>Amrit Sen</i><br>
+                                    <b>Date :</b> <i>11-04-2020</i>
+                                </li>
+                                 <li>
+                                    <b>Assigned to :</b> <i>Gaurav Sen</i><br>
+                                    <b>Date :</b> <i>15-04-2020</i>
+                                </li>
+                                 <li>
+                                    <b>Assigned to :</b> <i>Vijayi Kumari</i><br>
+                                    <b>Date :</b> <i>35-06-2020</i>
+                                </li>
+                                 <li>
+                                    <b>Assigned to :</b> <i>Evan </i><br>
+                                    <b>Date :</b> <i>35-06-2020</i>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-danger" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius:20px;background-color:#7C4DFF;color:white;border-color:#7C4DFF;position:absolute;bottom:10px;left:50px;"/>View All</a>
+        
+                       </div>
+                   </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+            label: 'Sales',
+            backgroundColor:'rgba(0, 0, 0, 0)',
+            borderColor: '#7488FC',
+            data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,268 @@
+
+<!doctype html>
+<html lang="en" style="overflow-x:hidden;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="description" content="web development, salesforce development, app development, seo, marketing, crm, zoho, software development, digital marketing company, startup, blogs, business"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://kit.fontawesome.com/2daac97524.js"></script>
+    <title>Royals Deck - A Multi Purpose Business Platform</title>
+    <nav id="nav1" class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.php" style="text-decoration:none;"><h4 style="padding:10px;color:#2F363F;"><b><i style="font-size:50px;color:#FAC42F;" class="fas fa-crown"></i> <span id="brd">ROYALS DECK</span></b></h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars" id="toggler" aria-hidden="true" style="color:white;font-size:30px;"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="overflow-x:hidden;">
+     <!--<ul class="navbar-nav ml-auto" style="margin-left:950px;">
+          <li class="nav-item">
+            <a class="nav-link" href=""></a>
+          </li>
+        </ul>-->
+        <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" id="nav-link1" style="color:white;text-decoration:none;" href="blogs.php">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link3"  style="color:white;text-decoration:none;" href="portfolio.php">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link4" style="color:white;text-decoration:none;" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link5" style="color:white;text-decoration:none;" href="products.php">Products</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+     
+  </head>
+  <style>
+         #phn-mb{
+                display:none;
+            }
+            #phn{
+                display:block;
+            }
+           
+      @media only screen and (max-width: 600px) {
+            .jumbotron{
+               /* background:url('img/header.png')no-repeat !important;
+                background-size:100% 40% !important; */
+                background-image:linear-gradient(to left,#288FF5,#7957E7,#401FA7) !important;width:100% !important;color:white !important;
+                min-height:600px !important;
+            }
+           
+           .nav-link{
+               color:#2F363F!important;
+               background-color:white!important;
+           }
+           #headtext{
+               margin-left:10px!important;
+               margin-top:110px !important;
+           }
+           #ctn1{
+               margin-bottom:200px!important;
+           }
+           #ctnin1{
+               margin-left:20px!important;
+           }
+            #phn-mb{
+                display:block;
+            }
+            #phn{
+                display:none;
+            }
+          .nav-item{
+              text-align:center;
+          }
+        .navbar-collapse{
+            border-radius:10px;
+        }
+        }
+  </style>
+  <body style="overflow-x:hidden;">
+  <br>
+ <div class="container-fluid" style="padding:20px;margin-top:100px;min-height:600px;background:url('img/back3.png')repeat;background-size:contain;min-height:1500px;">
+     <div class="row">
+        
+         <div class="col-md-4">
+            <a href="technology-blogs.php" style="text-decoration:none;">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <img id="cdimg" src="https://images.pexels.com/photos/1323592/pexels-photo-1323592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Technology and Innovation</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+        
+        <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card" data-aos="fade-up" data-aos-duration="3000">
+                <img id="cdimg" src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Coding and Debugging</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+         <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card" data-aos="fade-up" data-aos-duration="4000">
+                <img id="cdimg" src="https://images.pexels.com/photos/1305360/pexels-photo-1305360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Startup and Entrepreneur</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+        <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card"  data-aos="fade-up" data-aos-duration="2000">
+                <img id="cdimg" src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Careers and Opportunities</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+        <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card">
+                <img id="cdimg" src="https://images.pexels.com/photos/1232152/pexels-photo-1232152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Health and Wellness</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+        
+         <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card">
+                <img id="cdimg" src="https://images.pexels.com/photos/2577274/pexels-photo-2577274.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Tours and Travels</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+        <div class="col-md-4">
+            <a href="#" style="text-decoration:none;">
+                <div class="card">
+                <img id="cdimg" src="https://images.pexels.com/photos/261630/pexels-photo-261630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top"/>
+                <div class="card-body">
+                    <h4>Inspiration and Motivation</h4><span style="color:#3498DB;font-size:50px;position:absolute;bottom:0px;right:10px;cursor:pointer;"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+            </a><br>
+        </div>
+     </div>
+ </div>
+  <br>
+    
+    <footer style="margin:0px;background-image:linear-gradient(to left,#288FF5,#7957E7,#401FA7);height:350px;width:100%;">
+      <img src="img/wave.png" width="100%" height="120px"/><br> 
+      <div class="container" data-aos="zoom-out-right"><br>
+           <div class="row">
+               <div class="col-md-4">
+                    <h1 id="social">
+                            <a style="color:white;" href="https://www.linkedin.com/in/prithwiraj-dutta-8a861a120/" id="lid" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a style="color:white;" href="https://www.youtube.com/channel/UCLSxrKkOZdHfh0jVkRwJiYw" id="you" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                            <a style="color:white;" href="https://github.com/prithwirajdutta" id="git" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </h1>
+                        <span style="color: white;"><b>Royals Deck</b><br>A Prithwiraj Enterprise</span>
+               </div>
+                <div class="col-md-6"></div>
+           </div>
+       </div>
+    </footer>
+   <!--<span style="position: fixed;bottom:5px;right:10px;"><a style="color:white;text-decoration:none;" href="https://www.freepik.com/free-photos-vectors/business">Freepik Images</a></span>-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    $(document).ready(function(){
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("nav1").style.background = "white";
+        document.getElementById("nav1").style.boxShadow = " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+        document.getElementById("toggler").style.color = "#2F363F";
+        document.getElementById("nav-link1").style.color = "#2F363F";
+        document.getElementById("nav-link2").style.color = "#2F363F";
+        document.getElementById("nav-link3").style.color = "#2F363F";
+        document.getElementById("nav-link4").style.color = "#2F363F";
+        document.getElementById("nav-link5").style.color = "#2F363F";
+        document.getElementById("brd").style.color = "#2F363F";
+      } 
+      else
+      {
+        document.getElementById("nav1").style.background = "transparent";
+        document.getElementById("nav1").style.boxShadow = "none";
+        document.getElementById("toggler").style.color = "#2F363F";
+        document.getElementById("nav-link1").style.color = "#2F363F";
+        document.getElementById("nav-link2").style.color = "#2F363F";
+        document.getElementById("nav-link3").style.color = "#2F363F";
+        document.getElementById("nav-link4").style.color = "#2F363F";
+        document.getElementById("nav-link5").style.color = "#2F363F";
+        document.getElementById("brd").style.color = "#2F363F";
+      } 
+        window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("nav1").style.background = "white";
+        document.getElementById("nav1").style.boxShadow = " 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+        document.getElementById("toggler").style.color = "#2F363F";
+        document.getElementById("nav-link1").style.color = "#2F363F";
+        document.getElementById("nav-link2").style.color = "#2F363F";
+        document.getElementById("nav-link3").style.color = "#2F363F";
+        document.getElementById("nav-link4").style.color = "#2F363F";
+        document.getElementById("nav-link5").style.color = "#2F363F";
+        document.getElementById("brd").style.color = "#2F363F";
+      } 
+      else
+      {
+        document.getElementById("nav1").style.background = "transparent";
+        document.getElementById("nav1").style.boxShadow = "none";
+        document.getElementById("toggler").style.color = "#2F363F";
+        document.getElementById("nav-link1").style.color = "#2F363F";
+        document.getElementById("nav-link2").style.color = "#2F363F";
+        document.getElementById("nav-link3").style.color = "#2F363F";
+        document.getElementById("nav-link4").style.color = "#2F363F";
+        document.getElementById("nav-link5").style.color = "#2F363F";
+        document.getElementById("brd").style.color = "#2F363F";
+      } 
+    }
+    });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- <script src="http://localhost:3002/dist/aos.js"></script> -->
+
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
+
+		<script>
+			hljs.initHighlightingOnLoad();
+
+			$('.hero__scroll').on('click', function(e) {
+				$('html, body').animate({
+					scrollTop: $(window).height()
+				}, 1200);
+			});
+		</script>
+</body>
+</html>
